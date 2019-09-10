@@ -1,0 +1,52 @@
+GET http://localhost:8081/financial/account
+
+POST http://localhost:8081/financial/account
+content-type: application/json
+
+{
+	"description": "Banco Bradesco - Rodrigo"
+}
+
+POST http://localhost:8081/financial/account
+content-type: application/json
+
+{
+	"description": "Carteira - Rodrigo"
+}
+
+POST http://localhost:8081/financial/account
+content-type: application/json
+
+{
+	"description": "Carteira - Renata"
+}
+
+POST http://localhost:8081/financial/account
+content-type: application/json
+
+{
+	"description": "Multiplus - Cartão de Crédito"
+}
+
+POST http://localhost:8081/financial/account
+content-type: application/json
+
+{
+	"description": "Submarino - Cartão de Crédito"
+}
+
+POST http://localhost:8081/financial/account
+content-type: application/json
+
+{
+	"description": "Santander - Cartão de Crédito"
+}
+
+
+
+POST http://localhost:8081/financial/account
+content-type: application/json
+
+{
+	"description": "Ticket - Alimentos"
+}

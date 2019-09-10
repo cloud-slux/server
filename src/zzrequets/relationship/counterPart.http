@@ -1,0 +1,30 @@
+
+GET http://localhost:8081/relationship/counterPart
+
+POST http://localhost:8081/relationship/counterPart
+content-type: application/json
+
+{
+  "code": "02968267000100",
+  "name": "Bonor Industrial S.A.",
+  "type": "C",
+  "relationType": "Empregador"
+}
+
+
+POST http://localhost:8081/relationship/counterPart
+content-type: application/json
+
+{
+  "code": "10868610000165",
+  "name": "Bonor Industria de Botões do Nordeste S.A>",
+  "type": "C",
+  "relationType": "Empregador"
+}
+
+
+
+
+
+
+

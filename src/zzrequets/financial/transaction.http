@@ -1,0 +1,75 @@
+GET http://localhost:8081/financial/transaction
+
+POST http://localhost:8081/financial/transaction
+content-type: application/json
+
+{
+  "type": "C",
+  "origin": "Lançamento Manual",
+  "date": "2019-04-30",
+  "description": "Saldo Inicial da Conta",
+  "creditAccountId": "5cd8f8eca4c29f4f682ce849",
+  "creditAccountName": "Banco Bradesco - Rodrigo",
+  "creditClassificationId": "5cd9977a75533d28601dee71",
+  "creditClassificationName": "Salário",
+  "creditCostCenterId": "5cd9cc5223f6772bbc0fef5a",
+  "creditCostCenterName": "Uso Comum",
+  "creditValue": 225.06,
+  "debitAccountId": "",
+  "debitAccountName": "",
+  "debitClassificationId": "",
+  "debitClassificationName": "",
+  "debitCostCenterId": "",
+  "debitCostCenterName": "",
+  "debitValue": 0.00
+}
+
+
+POST http://localhost:8081/financial/transaction
+content-type: application/json
+
+{
+  "type": "D",
+  "origin": "Lançamento Manual",
+  "date": "2019-05-03",
+  "description": "Conveniencia Cohabinal",
+  "creditAccountId": "",
+  "creditAccountName": "",
+  "creditClassificationId": "",
+  "creditClassificationName": "",
+  "creditCostCenterId": "",
+  "creditCostCenterName": "",
+  "creditValue": 0.00,
+  "debitAccountId": "5cd8f8eca4c29f4f682ce849",
+  "debitAccountName": "Banco Bradesco - Rodrigo",
+  "debitClassificationId": "5cd9c1ea75533d28601dee8d",
+  "debitClassificationName": "Lanches e Jantares",
+  "debitCostCenterId": "5cd9cc5223f6772bbc0fef5a",
+  "debitCostCenterName": "Uso Comum",
+  "debitValue": 29.48
+}
+
+
+POST http://localhost:8081/financial/transaction
+content-type: application/json
+
+{
+  "type": "D",
+  "origin": "Lançamento Manual",
+  "date": "2019-05-03",
+  "description": "O Rei do Caldo",
+  "creditAccountId": "",
+  "creditAccountName": "",
+  "creditClassificationId": "",
+  "creditClassificationName": "",
+  "creditCostCenterId": "",
+  "creditCostCenterName": "",
+  "creditValue": 0.00,
+  "debitAccountId": "5cd8f8eca4c29f4f682ce849",
+  "debitAccountName": "Banco Bradesco - Rodrigo",
+  "debitClassificationId": "5cd9c1ea75533d28601dee8d",
+  "debitClassificationName": "Lanches e Jantares",
+  "debitCostCenterId": "5cd9cc5223f6772bbc0fef5a",
+  "debitCostCenterName": "Uso Comum",
+  "debitValue": 29.48
+}

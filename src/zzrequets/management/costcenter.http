@@ -1,0 +1,23 @@
+GET http://localhost:8081/management/costCenter
+
+POST http://localhost:8081/management/costCenter
+content-type: application/json
+
+{
+  "description": "Uso Comum"
+}
+
+
+POST http://localhost:8081/management/costCenter
+content-type: application/json
+
+{
+  "description": "Rodrigo"
+}
+
+POST http://localhost:8081/management/costCenter
+content-type: application/json
+
+{
+  "description": "Renata"
+}

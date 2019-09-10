@@ -1,0 +1,558 @@
+GET http://localhost:8081/financial/classification
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "1",
+  "type": "C",
+  "class": "S",
+  "description": "Entradas",
+  "parent": "",
+  "codeParent": ""
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "100",
+  "type": "C",
+  "class": "S",
+  "description": "Receitas CLT",
+  "parent": "5cd9963e75533d28601dee6f",
+  "codeParent": "1"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "10001",
+  "type": "C",
+  "class": "A",
+  "description": "Salário",
+  "parent": "5cd996c675533d28601dee70",
+  "codeParent": "100"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "10002",
+  "type": "C",
+  "class": "A",
+  "description": "Férias",
+  "parent": "5cd996c675533d28601dee70",
+  "codeParent": "100"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "10003",
+  "type": "C",
+  "class": "A",
+  "description": "13º Salário",
+  "parent": "5cd996c675533d28601dee70",
+  "codeParent": "100"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "190",
+  "type": "C",
+  "class": "S",
+  "description": "Receitas Espontâneas",
+  "parent": "5cd9963e75533d28601dee6f",
+  "codeParent": "1"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "19001",
+  "type": "C",
+  "class": "A",
+  "description": "Restituições de Cartão de Crédito",
+  "parent": "5cd9979b75533d28601dee74",
+  "codeParent": "190"
+}
+
+
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "2",
+  "type": "D",
+  "class": "S",
+  "description": "Saidas",
+  "parent": "",
+  "codeParent": ""
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "200",
+  "type": "D",
+  "class": "S",
+  "description": "Contas de Consumo",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "20001",
+  "type": "D",
+  "class": "A",
+  "description": "Condominio",
+  "parent": "5cd9a01675533d28601dee78",
+  "codeParent": "200"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "20002",
+  "type": "D",
+  "class": "A",
+  "description": "Energia Elétrica",
+  "parent": "5cd9a01675533d28601dee78",
+  "codeParent": "200"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "20003",
+  "type": "D",
+  "class": "A",
+  "description": "Internet",
+  "parent": "5cd9a01675533d28601dee78",
+  "codeParent": "200"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "20004",
+  "type": "D",
+  "class": "A",
+  "description": "Telefonia",
+  "parent": "5cd9a01675533d28601dee78",
+  "codeParent": "200"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "20005",
+  "type": "D",
+  "class": "A",
+  "description": "Streaming",
+  "parent": "5cd9a01675533d28601dee78",
+  "codeParent": "200"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "210",
+  "type": "D",
+  "class": "S",
+  "description": "Feira",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "21001",
+  "type": "D",
+  "class": "A",
+  "description": "Alimentos",
+  "parent": "5cd9a0fd75533d28601dee7e",
+  "codeParent": "210"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "21002",
+  "type": "D",
+  "class": "A",
+  "description": "Higiene e Limpeza",
+  "parent": "5cd9a0fd75533d28601dee7e",
+  "codeParent": "210"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "21003",
+  "type": "D",
+  "class": "A",
+  "description": "Utilidades Domésticas",
+  "parent": "5cd9a0fd75533d28601dee7e",
+  "codeParent": "210"
+}
+
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "220",
+  "type": "D",
+  "class": "S",
+  "description": "Logistica",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "22001",
+  "type": "D",
+  "class": "A",
+  "description": "Combustivel",
+  "parent": "5cd9bfdb75533d28601dee82",
+  "codeParent": "220"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "22002",
+  "type": "D",
+  "class": "A",
+  "description": "Manutenção",
+  "parent": "5cd9bfdb75533d28601dee82",
+  "codeParent": "220"
+}
+
+
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "230",
+  "type": "D",
+  "class": "S",
+  "description": "Securidade",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "23001",
+  "type": "D",
+  "class": "A",
+  "description": "Plano de Saude",
+  "parent": "5cd9c08e75533d28601dee85",
+  "codeParent": "230"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "23002",
+  "type": "D",
+  "class": "A",
+  "description": "Seguro Automotivo",
+  "parent": "5cd9c08e75533d28601dee85",
+  "codeParent": "230"
+}
+
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "240",
+  "type": "D",
+  "class": "S",
+  "description": "Impostos",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "24001",
+  "type": "D",
+  "class": "A",
+  "description": "IPVA",
+  "parent": "5cd9c13675533d28601dee88",
+  "codeParent": "240"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "24002",
+  "type": "D",
+  "class": "A",
+  "description": "IPTU",
+  "parent": "5cd9c13675533d28601dee88",
+  "codeParent": "240"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "24003",
+  "type": "D",
+  "class": "A",
+  "description": "IRRF",
+  "parent": "5cd9c13675533d28601dee88",
+  "codeParent": "240"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "250",
+  "type": "D",
+  "class": "S",
+  "description": "Lazer",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "25001",
+  "type": "D",
+  "class": "A",
+  "description": "Lanches e Jantares",
+  "parent": "5cd9c1c875533d28601dee8c",
+  "codeParent": "250"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "25002",
+  "type": "D",
+  "class": "A",
+  "description": "Cinema",
+  "parent": "5cd9c1c875533d28601dee8c",
+  "codeParent": "250"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "260",
+  "type": "D",
+  "class": "S",
+  "description": "Ofertas e Doações",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "26001",
+  "type": "D",
+  "class": "A",
+  "description": "Dizimo",
+  "parent": "5cd9c35d75533d28601dee8f",
+  "codeParent": "260"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "26002",
+  "type": "D",
+  "class": "A",
+  "description": "Ofertas",
+  "parent": "5cd9c35d75533d28601dee8f",
+  "codeParent": "260"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "26003",
+  "type": "D",
+  "class": "A",
+  "description": "Doações Familiares",
+  "parent": "5cd9c35d75533d28601dee8f",
+  "codeParent": "260"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "270",
+  "type": "D",
+  "class": "S",
+  "description": "Emprestimos",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "27001",
+  "type": "D",
+  "class": "A",
+  "description": "Apartamento",
+  "parent": "5cd9c47c75533d28601dee93",
+  "codeParent": "270"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "27002",
+  "type": "D",
+  "class": "A",
+  "description": "Carro",
+  "parent": "5cd9c47c75533d28601dee93",
+  "codeParent": "270"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "27003",
+  "type": "D",
+  "class": "A",
+  "description": "Empréstimos Para Cartão",
+  "parent": "5cd9c47c75533d28601dee93",
+  "codeParent": "270"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "27004",
+  "type": "D",
+  "class": "A",
+  "description": "Empréstimos Para Conta Adhoc",
+  "parent": "5cd9c47c75533d28601dee93",
+  "codeParent": "270"
+}
+
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "280",
+  "type": "D",
+  "class": "S",
+  "description": "Aquisição de Ativos",
+  "parent": "5cd999df75533d28601dee76",
+  "codeParent": "2"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "28001",
+  "type": "D",
+  "class": "A",
+  "description": "Apartamento",
+  "parent": "5cd9c61675533d28601dee97",
+  "codeParent": "280"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "28002",
+  "type": "D",
+  "class": "A",
+  "description": "Carro",
+  "parent": "5cd9c61675533d28601dee97",
+  "codeParent": "280"
+}
+
+POST http://localhost:8081/financial/classification
+content-type: application/json
+
+{
+  "code": "28003",
+  "type": "D",
+  "class": "A",
+  "description": "Utilidades Para Casa",
+  "parent": "5cd9c61675533d28601dee97",
+  "codeParent": "280"
+}

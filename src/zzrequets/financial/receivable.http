@@ -1,0 +1,53 @@
+GET http://localhost:8081/financial/receivable
+
+POST http://localhost:8081/financial/receivable
+content-type: application/json
+
+{
+  "code": "1",
+  "type": "C",
+  "class": "S",
+  "description": "Entradas",
+  "parent": "",
+  "codeParent": ""
+}
+
+
+
+const ReceivableSchema = new mongoose.Schema({
+  counterPartId: String,
+  counterPartCode: String,
+  counterPartName: String,
+  counterPartType: String,
+  financialClassificationId: String,
+  financialClassificationDescription: String,
+  costCenterId: String,
+  costCenterName: String,
+  emissionDate: Date,
+  value: Number,
+  openValue: Number,
+  installment: [{
+    type: ObjectId,
+    ref: 'ReceivableInstallment'
+  }],
+  createdAt: {
+    type: Date,
+    default: Date.now
+  }
+});
+
+const ReceivableInstallmentSchema = new mongoose.Schema({
+  parcel: String,
+  date: Date,
+  financialAccountId: String,
+  financialAccountName: String,
+  value: Number,
+  open: Boolean,
+  openValue: Number,
+  createdAt: {
+    type: Date,
+    default: Date.now
+  }
+});
+
+2.018,40
